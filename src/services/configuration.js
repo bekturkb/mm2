@@ -1,0 +1,1 @@
+export const _apiBase = 'https://shielded-hamlet-24895.herokuapp.com';

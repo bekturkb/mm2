@@ -1,0 +1,211 @@
+.card-level-0 {
+    margin: 0 auto 20px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    max-width: 750px;
+    min-width: 300px;
+    min-height: 570px;
+    background: inherit;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-top: 1px solid rgba(0, 0, 0, 0.05);
+    /* border: 1px solid red; */
+    border-radius: 5px;
+}
+
+.card-level-1 {
+    /* height: 450px; */
+    background: #FFFAFA;
+    margin: 0 auto;
+    max-width: 600px;
+    padding: 0 20px;
+    /* border-top: 1px solid rgba(0, 0, 0, 0.05); */
+    /* box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); */
+    border: 3px solid rgba(175, 225, 240, 0.5);
+    border-radius: 5px;
+}
+
+.card-header {
+    margin: 10px auto 0;
+    width: 550px;
+    height: 45px;
+    /* border: 1px solid red; */
+}
+
+.card-logo-and-name {
+    float: left;
+    width: 300px;
+    /* border: 1px solid blue; */
+    cursor: pointer;
+}
+
+.card-logo {
+    float: left;
+    margin-left: 20px;
+    /* border: 1px solid red; */
+}
+
+.card-logo img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+}
+
+.card-company-name {
+    font-family: 'Roboto Slab';
+    float: left;
+    padding-top: 10px;
+    color: #07699D;
+    height: 40px;
+    /* border: 1px solid green; */
+    margin-left: 10px;
+}
+
+.card-company-name:hover {
+    color: #7FDBFF;
+}
+
+.card-location {
+    margin-right: 10px;
+    float: right;
+    width: 100px;
+    height: 40px;
+    /* border: 1px solid red; */
+    padding-top: 10px;
+    color: #07699D;
+    cursor: pointer;
+}
+
+.card-location:hover {
+    color: #7FDBFF;
+}
+
+.card-location-icon {
+    margin-top: 2px;
+    float: left;
+    margin-right: 10px;
+}
+
+.card-location-name {
+    font-family: 'Roboto Slab';
+}
+
+.card-picture {
+    display: flex;
+    margin: 3px auto 0;
+    max-width: 650px;
+    height: 320px;
+    /* border: 1px solid red; */
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.card-picture img {
+    display: inline-block;
+    margin: 0 auto;
+    max-width: 550px;
+    min-width: 300px;
+    height: 320px;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.card-likes-content {
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    width: 550px;
+    height: 38px;
+    /* border: 1px solid red; */
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+}
+
+.card-likes-content button {
+    display: block;
+    color: #07699D;
+    width: 80px;
+    height: 25px;
+    margin-top: 7px;
+    margin-bottom: 4px;
+    background: rgba(125, 125, 125, 0.13);
+    border: none;
+    text-decoration: none;
+    border-radius: 3px;
+    font-family: 'Roboto Slab';
+    font-size: 18px;
+    /* box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25); */
+    cursor: pointer;
+}
+
+.card-likes-content-active {
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    width: 550px;
+    height: 38px;
+    /* border: 1px solid red; */
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+}
+
+.card-likes-content-active button {
+    display: block;
+    color: #07699D;
+    width: 80px;
+    height: 25px;
+    margin-top: 7px;
+    margin-bottom: 4px;
+    background: rgba(125, 125, 125, 0.13);
+    border: none;
+    text-decoration: none;
+    border-radius: 3px;
+    font-family: 'Roboto Slab';
+    font-size: 18px;
+    /* box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25); */
+    cursor: pointer;
+}
+
+.card-likes-content-active button:first-child {
+    color: #24a429;
+}
+
+.card-likes-content-active button:nth-child(3){
+    color: #24a429;
+}
+
+.card-likes-content-active-dislike button:nth-child(4){
+    color: #ffca10;
+}
+
+
+
+button:focus {outline:0;}
+
+.card-likes-content button:hover {
+    color: #7FDBFF;
+}
+
+
+.card-description h3 {
+    font-family: Roboto Slab;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: normal;
+    margin: 5px 0 0;
+}
+
+.card-description p {
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 11px;
+    margin: 5px 5px 0;
+}
+
+.card-description h5 {
+    margin: 5px 0 5px;
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    color: #07699D;
+    cursor: pointer;
+}
